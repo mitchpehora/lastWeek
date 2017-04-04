@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 
 var pastWeek=function()
 {
@@ -81,4 +81,5 @@ xLabels[i]=xDayWeek[i]+' ('+(xMonths[i]+1)+' - '+xDates[i]+')';
 }
 pastWeekArray=xLabels;
 return pastWeekArray;
+}
 }
