@@ -1,6 +1,6 @@
 
 
-function pastWeek()
+function lastWeek()
 {
 var pastWeekArray=[0,0,0,0,0,0,0];
 
