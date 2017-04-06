@@ -4,10 +4,28 @@
 
 
          <!--<script type="text/javascript" src='javascripts/lastWeek.js' /></script>-->
-      <script type="text/javascript" src='javascripts/lastMonth.js' /></script> 
-         <script type="text/javascript" src='javascripts/test.js' /></script>
+         <script
+                 src="https://code.jquery.com/jquery-3.2.1.js"
+                 integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+                 crossorigin="anonymous"></script>
+                 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
 
+      <script type="text/javascript" src='javascripts/lastMonth.js' /></script>
+      <script type="text/javascript" src='javascripts/test.js' /></script>
 
+         <canvas id="myChart"></canvas>
+
+         <select id='numberDays'>
+           <option value="5">5</option>
+           <option value="10">10</option>
+           <option value="15">15</option>
+           <option value="20">20</option>
+           <option value="25">25</option>
+           <option value="30">30</option>
+         </select>
+
+         <input type="button" class="selectButton" value="Select" id=daysSelect>
+         <input type="button" class="resetButton" value="Reset" id=reset>
 
 </head>
 <body>
